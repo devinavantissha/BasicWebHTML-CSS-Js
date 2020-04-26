@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+   background-image: url('../image/back.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+
+nav a:hover {
+   font-weight: bold;
+}
+
+header {
+   display: inline;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 6px;
+   padding: 30px;
+   margin-top: 20px;
+   background-color: white;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: rgb(52, 172, 224);
+   background: url('../image/header2.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   text-shadow: 3px 3px 2px black;
+   color: white;
+}
+
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: rgb(52, 172, 224);
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   margin: 0 auto;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+p{
+   text-align: justify;
+   text-indent: 2em;
+}
+
+.jumbotron p{
+   text-align: center;
+}
+.center ul{
+   width: -moz-fit-content;
+   width: -webkit-fit-content;
+   width: fit-content;
+   margin: auto;
+   padding: 10px;
+}
+#wilayah table{
+   border: 1px solid #333
+}
+
+footer {
+   padding: 20px;
+   background-color:rgb(52, 172, 224);
+   text-align: center;
+   font-weight: bold;
+   color: black;
+}
+
+#foot p{
+   text-align: center;
+}
+
+#content{
+   float: left;
+   width: 73%;
+   padding-left: 20px;
+   overflow: auto;
+}
+
+aside{
+	float: right;
+	width: 26%;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+#lambang img {
+   float: left;
+   margin: 20px;
+}
+   
+table a{
+   text-decoration: none;
+   color: black;
+}
+
+marquee{
+   color: rgb(5, 55, 134);
+   text-shadow: 3px 3px 3px rgb(52, 172, 224);
+   font-weight: 600;
+   font-size: 20pt;
+   padding: 5px;
+}
+
+.button {
+   flex-basis: 5%;
+  
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: center;
+   padding: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+
+.double {
+   flex-basis: 10%;
+}
+
+.history {
+   width: 80%;
+   margin: 30px auto 0 auto;
+   overflow: scroll;
+}
+
+.box {/*bagian bacaan tambahan(mutasi)*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   text-align: center;
+   padding: 5px;
+   margin-top: 5px;
+   background-color: white;
+}
+
+.box p{
+   text-align: center;
+}
